@@ -1,0 +1,135 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.box-container {
+  display: flex;
+}
+
+.small-box {
+  background-color: #fbbf24;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: flex-end;
+}
+
+.box-text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: flex-end;
+}
+
+.large-box {
+  background-color: #ec4899;
+  height: 170px;
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 600;
+    color: #0f172a;
+  }
+
+  .small-box {
+    background-color: #fbbf24;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-self: flex-end;
+  }
+
+  .box-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Bree Serif';
+  }
+
+  .medium-box {
+    background-color: #38bdf8;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-self: flex-end;
+  }
+
+  .large-box {
+    background-color: #ec4899;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-self: flex-end;
+  }
+}
